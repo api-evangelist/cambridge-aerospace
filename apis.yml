@@ -1,8 +1,26 @@
 aid: cambridge-aerospace
-name: 'Cambridge Aerospace '
-description: 'Cambridge Aerospace  is a company surfaced as a portfolio company of accel and added to
-  the API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cambridge-aerospace.png
+name: 'Cambridge Aerospace'
+description: 'Cambridge Aerospace is a UK-based defense technology company, incorporated in September
+  2024, developing scalable interceptor missiles and sovereign air-and-missile-defense systems for
+  European nations. Its first product, Skyhammer, is a tube-launched subsonic interceptor with a
+  Cambridge-developed radar seeker, positioned as an affordable, mass-producible counter to drones
+  and cruise missiles (often likened to an Iron Dome-style layered air defense). The company operates
+  in the aerospace and defense/security sector and is backed by a venture syndicate including Accel,
+  Lakestar, Lux Capital, Spark Capital, and the D3 fund. This API Evangelist profile was surfaced as
+  a portfolio company of Accel; it is a hardware-first defense company with no public API or developer
+  surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/cambridge-aerospace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Security
+- Defense
+- Aerospace
+- Missile Defense
+- Interceptors
+- Hardware
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cambridge-aerospace-domain-security.yml
 - type: Website
   url: https://www.cambridgeaerospace.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
