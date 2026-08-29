@@ -33,6 +33,9 @@ description: 'Cambridge Aerospace is a UK-based defense technology company, inco
   a portfolio company of Accel; it is a hardware-first defense company with no public API or developer
   surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/cambridge-aerospace/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This API Evangelist profile was surfaced as a portfolio company of Accel; it is a hardware-first defense company with no public API or developer surface at this time."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
